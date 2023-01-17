@@ -31,9 +31,9 @@
         <p>Hello my is Leomar Aparra. I grew in Hawaii moved around lived in Houston for a few years.Went back to Hawaii In middle school joined the military when i was 17 years old. Got station in Hawaii. after a few years of living there it seemed like a dead end move to vegas was having a little to much fun there. Eventually moved hear to pursue something greater than myself. I have a few Hobbies has any one in this industry I like to tweak on the computer and games. I also Enjoy the outdoors. Im a big gym enthusiast lifthing running just keeping the body moving. Ive also trained in boxing, kick boxing, Muaythai and a littl bit of jujitsu </p>
         <img class="right" src="images/me.png" alt="Leo">
 
-        <img class="left" src="images/Mamp.png" alt="Mamp">
+        <img class="left" src="images/wamp.png" alt="wamp">
 
-        <img class="center" src="images/mamperror.png" alt="error">
+        <img class="center" src="images/wamp_error.png" alt="error">
 
 
 </main>
