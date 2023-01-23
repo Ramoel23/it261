@@ -9,7 +9,7 @@ $first_name = 'Leo';
 $last_name = 'Aparra';
 echo '<br>';
 $name = 'Leo';
-$name .= 'Smith';
+$name .= 'Aparra';
 echo $name;
 
 echo '<br>';
@@ -18,7 +18,7 @@ $color = 'red';
 echo $color;
 
 echo '<br>';
-echo 'Leo\'s favorite color is ' .$color.  '';
+echo 'Leo\'s favorite color is ' .$color.' ';
 
 echo '<br>';
 $x = 20;
@@ -48,8 +48,8 @@ $quantity = 5;
 $total = $product * $quantity;
 $total *= 1.105;
 $total_friendly = number_format($total, 2);
-echo 'We have a total of <b>$' . $total_friendly . '<b> dollars';
-echo '<b>';
+echo 'We have a total of <b>$' .$total_friendly. '</b> dollars';
+echo '<br>';
 
 $product = 120;// is our integer
 $quantity = 5;
@@ -60,7 +60,7 @@ echo '<h3>Our second preset function is our date function!</h3>';
 echo date('Y');
 echo '<br>';
 echo date('l');
-echo '<b>';
+echo '<br>';
 echo date("l js \of F Y h:i:s A");
 
 echo '<br>';
@@ -72,16 +72,16 @@ echo date("l js \of F Y h:i:s A");
 
 echo '<h3>Time for an array</h3>';
 echo '<h4>Below is an indexed array</h4>';
-// can we echo an arry ??? no we cannot 
-$fruit[]= 'bananas'; //0
-$fruit[]= 'cherries'; //1
-$fruit[]= 'melon'; //2
-$fruit[]= 'kiwi';
-$fruit[]= 'oranges';
-$fruit[]= 'apples';
+// can we echo an array ??? no we cannot 
+$fruit[] = 'bananas'; //0
+$fruit[] = 'cherries'; //1
+$fruit[] = 'melon'; //2
+$fruit[] = 'kiwi';
+$fruit[] = 'oranges';
+$fruit[] = 'apples';
 
 echo $fruit;
-echo  '<b>';
+echo '<br>';
 echo $fruit[2];
 
 $fruit = array(
@@ -109,7 +109,7 @@ var_dump($fruit);
 
 echo '<h3> Now we have an associative array</h3>';
 
-$nav +array(
+$nav = array(
     'index.php'=>'Home', // index is the key and home is he value
     'about.php'=>'About',
     'daily.php'=> 'Daily',

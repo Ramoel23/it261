@@ -13,7 +13,7 @@ $euro = 1291;
 $yen = 4030;
 
 $ruble_converted = $ruble * $ruble_rate; 
-$pound_converted = $Pound * $pound_rate; 
+$pound_converted = $pound * $pound_rate; 
 $canadian_converted = $canadian * $canadian_rate; 
 $euro_converted = $euro * $euro_rate; 
 $yen_converted = $yen * $yen_rate; 
@@ -66,7 +66,8 @@ h1, h2, h3 {
 <body>
 <div id="wrapper">
 <h1>After our world-wind travels, we have returned home with the following currencies</h1>
-<ul><li>Rubles</li>
+<ul>
+<li>Rubles</li>
 <li>Pound sterling</li>
 <li>Canadian Dollar</li>
 <li>Euros</li>
@@ -79,6 +80,7 @@ h1, h2, h3 {
 <tr>
 <th colspan="2">Currency</th>
 <th>Dollars</th>
+
 </tr>
 
 <tr>
@@ -101,13 +103,13 @@ h1, h2, h3 {
 
 <tr>
 <th>Euros</th>
-<td><?php echo $euros;  ?></td>
-<td>$<?php '' .number_format($euros_converted, 2). '';  ?></td>
+<td><?php echo $euro;  ?></td>
+<td>$<?php '' .number_format($euro_converted, 2). '';  ?></td>
 </tr>
 
 <tr>
 <th>Yens</th>
-<td><?php echo $yens;   ?></td>
+<td><?php echo $yen;   ?></td>
 <td>$<?php echo '' .number_format($yen_converted, 2). '';   ?></td>
 </tr>
 
@@ -123,6 +125,7 @@ h1, h2, h3 {
 
 
 </div>
+    <!-- end wrapper -->
 </body>
 </html>
 
