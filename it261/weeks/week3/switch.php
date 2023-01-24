@@ -76,7 +76,7 @@ $content = '<p> <b>A cup of Americano</b> is a type of coffee drink prepared by 
 break;
 
 case 'Thursday':
-$coffee = '<h2>THursday is Cold brew Day!</h2>';
+$coffee = '<h2>Thursday is Cold brew Day!</h2>';
 $pic ='coldbrew.png';
 $alt ='Cold Brew';
 $content = '<p> <b>A cup Colde brew</b> is coffee that is brewed at a lower temperature than traditional coffee. This brewing method results in a less acidic, smoother cup of coffee. It can be made using a variety of methods, but the two most popular are the immersion method</P>';
