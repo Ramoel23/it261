@@ -2,6 +2,12 @@
 <?php
 include('./includes/header.php');
 
+switch (THIS_PAGE) {
+    case 'daily.php':
+        $title = 'daily class work';
+        $body = 'Daily';
+}
+
 
 if (isset ($_GET ['today'])) {
     $today = $_GET['today'] ;
