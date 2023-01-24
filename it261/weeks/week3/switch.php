@@ -82,6 +82,13 @@ $alt ='Cold Brew';
 $content = '<p> <b>A cup Colde brew</b> is coffee that is brewed at a lower temperature than traditional coffee. This brewing method results in a less acidic, smoother cup of coffee. It can be made using a variety of methods, but the two most popular are the immersion method</P>';
 break;
 
+case 'Wednesday':
+$coffee = '<h2>Wednesday is Matcha tea Day!</h2>';
+$pic ='matcha.png';
+$alt ='Match tea';
+$content = '<p> <b>A cup Matcha tea</b> is a type of green tea used for centuries in China and Japan. The leaves are harvested, steamed, and dried then ground into a fine powder. While most teas are brewed from stepped leaves that are then filtered out, matcha tea includes the whole leaf in its powder.</P>';
+    break;
+
 
 }
 ?>
