@@ -33,7 +33,7 @@ switch (THIS_PAGE) {
         $body = 'gallery inner';
     break;
 }
-// our navigational array!
+// our  array!
 $nav = array(
     'index.php' => 'Home',
     'about.php' => 'About',
@@ -42,8 +42,6 @@ $nav = array(
     'contact.php' => 'Contact',
     'gallery.php' => 'Gallery',
 );
-
-
 
 
 ?>
@@ -63,16 +61,16 @@ $nav = array(
     <img id="logo" src="images/logo.png"
     alt="logo">
     </a>
-    <!--<nav>
+    <!-- <nav>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
-        <li><a href="">Daily</a></li>
+        <li><a href="./includes/daily.php">Daily</a></li>
         <li><a href="">Project</a></li>
         <li><a href="">Contact</a></li>
         <li><a href="">Gallary</a></li>    
     </ul> 
-        </nav>-->
+        </nav> -->
 
 <nav>
 <ul>    

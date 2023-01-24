@@ -137,6 +137,7 @@ echo $coffee;
 <li><a href="switch.php?today=Thursday">Thursday</a></li>
 <li><a href="switch.php?today=Friday">Friday</a></li>
 <li><a href="switch.php?today=Saturday">Saturday</a></li>
+<li><a href="switch.php?today=Sunday">Saunday</a></li>
 
 
 </ul>

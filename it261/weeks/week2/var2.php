@@ -80,7 +80,7 @@ $fruit[] = 'kiwi';
 $fruit[] = 'oranges';
 $fruit[] = 'apples';
 
-echo $fruit;
+
 echo '<br>';
 echo $fruit[2];
 
