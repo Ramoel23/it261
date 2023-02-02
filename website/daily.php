@@ -37,7 +37,7 @@ case 'Monday':
 $coffee = '<h2>Monday is For my hero academia!</h2>';
 $pic = 'myhero.png';
 $alt = 'My hero Acadmia';
-$content = '<p> <b>My hero Acadmia</b> which was adopted from the Ottoman empire, and milk have been part of European cuisine since the seventeenth century. Caffè e latte, Milchkaffee, café au lait, and café con leche are domestic terms of traditional ways of drinking coffee, usually as part of breakfast in the home</P>';
+$content = '<p> <b>My hero Acadmia</b>  is a Japanese superhero manga series written and illustrated by Kōhei Horikoshi. The story follows Izuku Midoriya, a boy born without superpowers (called Quirks) in a world where they have become commonplace, but who still dreams of becoming a superhero himself.</P>';
 break;
 
 case 'Tuesday':
