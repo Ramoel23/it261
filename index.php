@@ -15,7 +15,7 @@
 <nav>
 <ul>
 
-<li><a href="">Switch</a></li>
+<li><a href="weeks/week3/switch.php">Switch</a></li>
 <li><a href="Troubleshoot/adder.php">Troubleshoot</a></li>
 <li><a href="">Calculator</a></li>
 <li><a href="">Email</a></li>
@@ -59,7 +59,7 @@
 <li><a href="weeks/week3/about.php">about.php</a></li>
 <li><a href="weeks/week3/for-loop.php">for-loop.php</a></li>
 <li><a href="weeks/week3/index.php">index.php</a></li>
-<li><a href="weeks/week3/switch.php">switch.php</a></li>
+
 
 <h3>week4</h3>
 
