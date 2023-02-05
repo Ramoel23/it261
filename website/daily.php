@@ -73,7 +73,7 @@ break;
 
 
 <div id="wrapper">
-<h1> Jaw Dropping Showes</h1>
+<h1> Jaw Dropping Shows</h1>
 <?php
 echo $coffee;
 ?>

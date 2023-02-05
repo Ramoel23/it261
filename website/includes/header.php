@@ -33,7 +33,7 @@ switch (THIS_PAGE) {
         $body = 'gallery inner';
     break;
 }
-// our navigational array!
+// our  array!
 $nav = array(
     'index.php' => 'Home',
     'about.php' => 'About',
@@ -44,8 +44,6 @@ $nav = array(
 );
 
 
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,26 +51,26 @@ $nav = array(
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $tittle; ?></title>
+    <title><?php echo $title; ?></title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body class="<?php echo $body ;?>">
-<header>
+
     <div class="inner-header">
     <a href="index.php">
-    <img id="logo" src="images/logo.png"
-    alt="logo">
+    <img id="logo" src="images/adonislogo.png"
+    alt="adonislogo">
     </a>
-    <!--<nav>
+    <!-- <nav>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
-        <li><a href="">Daily</a></li>
+        <li><a href="./includes/daily.php">Daily</a></li>
         <li><a href="">Project</a></li>
         <li><a href="">Contact</a></li>
         <li><a href="">Gallary</a></li>    
     </ul> 
-        </nav>-->
+        </nav> -->
 
 <nav>
 <ul>    
@@ -90,4 +88,3 @@ foreach ($nav as $key => $value) {
 </nav>       
 </div>
     <!--end inner header-->
-    </header>
