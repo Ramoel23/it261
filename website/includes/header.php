@@ -58,8 +58,8 @@ $nav = array(
 
     <div class="inner-header">
     <a href="index.php">
-    <img id="logo" src="images/adonislogo.png"
-    alt="adonislogo">
+    <img id="logo" src="images/logo.png"
+    alt="logo">
     </a>
     <!-- <nav>
     <ul>
